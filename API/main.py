@@ -48,7 +48,7 @@ def predict():
     if keywords == "1":
         potato_m = tf.keras.models.load_model("../Models/potato_f")
         # potato_names = ['Early Blight', 'Late Blight', 'Healthy']
-        class_names = ['Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy']
+        class_names = ['Potato Early Blight', 'Potato Late Blight', 'Potato Healthy']
 
         # print(image_batch.size)
         # prediction = potato_m.predict(image_batch)
